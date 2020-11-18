@@ -4,7 +4,7 @@ icapeg-client is application used to test the ICAP server
 
 ## Things to have
 
-1. **Golang**
+1. **Golang**(latest enough to be able to use go mod)
 
      ***A sample installation of go version 1.14***:
 
@@ -52,17 +52,16 @@ To discover the go version you installed
 
 ## How to run icapeg-client!!
 
-1. Install the icap-client library
+1. Clone the ICAPeg-client repository
 
   ```bash
-    go get -u github.com/egirna/icap-client
+    git clone https://github.com/egirna/icapeg-client.git
 
   ```
-
-2. Clone the ICAPeg-client repository
+2. Enable go modules to install libraries
 
   ```bash
-    https://github.com/egirna/icapeg-client.git
+    export GO114MODULE=on
 
   ```
 
