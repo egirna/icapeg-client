@@ -58,7 +58,7 @@ To discover the go version you installed
     git clone https://github.com/egirna/icapeg-client.git
 
   ```
-2. Enable go modules to install libraries
+2. Enable go modules to install libraries(if the go version is 1.15 -> GO115MODULE and so on)
 
   ```bash
     export GO114MODULE=on
